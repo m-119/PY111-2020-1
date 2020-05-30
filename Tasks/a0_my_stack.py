@@ -49,8 +49,6 @@ def peek(ind: int = 0) -> Any:
 
     return stack_list[-ind - 1] if ind < len(stack_list) else None
 
-    return None
-
 
 def clear() -> None:
     """
@@ -60,4 +58,3 @@ def clear() -> None:
     """
     global stack_list
     stack_list = []
-    return None
