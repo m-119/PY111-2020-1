@@ -1,6 +1,6 @@
 from typing import Sequence, Optional
 
-#вариант 1, не учитывает просмотр вправо
+#обычный бинарный поиск не учитывает просмотр вправо (для поиска первого элемента)
 def subsearch(elem: int, arr: Sequence) -> Optional[int]:
     """
     Performs binary search of given element inside of array
