@@ -13,7 +13,7 @@ def search_elem(elem: Any, arr: Any) -> bool:
     for el in arr:
         if el == elem:
             return True
-        return False
+    return False
 
 def min_search(arr: Sequence) -> int:
     """
