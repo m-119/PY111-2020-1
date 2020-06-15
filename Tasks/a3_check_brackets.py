@@ -13,9 +13,7 @@ def check_brackets(brackets_row: str) -> bool:
             c -= 1
         if c < 0:
             return False
-    if not c:
-        return True
-    return False
+    True if not c else False
 
 # если исходить из того что:
 #     открывающая скобка должна закрыться
