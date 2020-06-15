@@ -25,8 +25,8 @@ def binary_search(elem: int, arr: Sequence) -> Optional[int]:
 
     while left != right:
         mid = (right - left) // 2 + left
-        print(f"{left} > {mid} > {right}")
-        print("-------")
+        # print(f"{left} < {mid} < {right}")
+        # print("-------")
         if elem > arr[mid]:
             print("@")
             left = mid+1
